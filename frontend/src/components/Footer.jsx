@@ -1,5 +1,25 @@
 
 <>
+
+    const socialLinks = [
+    { 
+      icon: FaFacebookF, 
+      url: 'https://www.facebook.com/' 
+    },
+    { 
+      icon: FaTwitter, 
+      url: 'https://twitter.com/' 
+    },
+    { 
+      icon: FaInstagram, 
+      url: 'https://www.instagram.com/' 
+    },
+    { 
+      icon: FaYoutube, 
+      url: 'https://www.youtube.com/' 
+    }
+  ];
+  
   {/* Floating shapes */}
   <div className={`${footerStyles.floatingShape} -top-24 -right-24 w-80 h-80 opacity-20`}></div>
   <div className={`${footerStyles.floatingShape} -bottom-40 -left-24 w-96 h-96 opacity-15 animation-delay-2000`}></div>
