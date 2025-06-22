@@ -26,8 +26,6 @@
   <div className={`${footerStyles.floatingShape} top-1/4 left-1/3 w-64 h-64 bg-emerald-600 opacity-10 animate-pulse animation-delay-1000`}></div>
 
 
-  {/* Brand */}
-  [FaFacebookF, FaTwitter, FaInstagram, FaYoutube]
 
   {/* Quick Links */}
   ['Home', 'Items', 'Contact']
