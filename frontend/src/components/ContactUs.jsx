@@ -1,6 +1,3 @@
-
-
-
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -8,8 +5,10 @@
     subject: '',
     message: ''
   });
+  const [showToast, setShowToast] = useState(false);
 
-  const whatsappNumber = '8299431275';
+  // Replace with your WhatsApp number (with country code, no '+' or dashes)
+  const whatsappNumber = '';
 
     // Build WhatsApp message
     const text = 
@@ -17,4 +16,9 @@
       `Email: ${email}\n` +
       `Phone: ${phone}\n` +
       `Subject: ${subject}\n` +
-      `Message: ${message}`
+      `Message: ${message}`;
+
+    // Open WhatsApp Web with pre-filled message
+    const url = 
+      `https://web.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(text)}`;
+    window.open(url, '_blank');
