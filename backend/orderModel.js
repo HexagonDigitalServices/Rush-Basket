@@ -31,3 +31,14 @@
     date: { type: Date, default: Date.now, index: true },
     deliveryDate: { type: Date, index: true }
 
+     orderId,
+                user: req.user._id,
+                customer,
+                items: orderItems,
+                shipping: 0,
+                paymentMethod: normalizedPM,
+                paymentStatus: 'Unpaid',
+                sessionId: session.id,
+                paymentIntentId: session.payment_intent,
+                notes,
+                deliveryDate
