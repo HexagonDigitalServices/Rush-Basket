@@ -8,6 +8,12 @@
 
 const statusOptions = ['All', 'Pending', 'Processing', 'Shipped', 'Delivered', 'Cancelled'];
 
+      result = result.filter(order =>
+        order.id.toLowerCase().includes(term) ||
+        order.customer.name.toLowerCase().includes(term) ||
+        order.customer.phone.includes(term) ||
+        (order.customer.email && order.customer.email.toLowerCase().includes(term)))
+
 
     <tr>
                   <th className={styles.tableHeaderCell}>Order ID</th>
