@@ -26,7 +26,7 @@
                           <span className="font-medium text-emerald-400">Free</span>
                         </div>
                         <div className="flex justify-between py-2">
-                          <span className="text-emerald-300">Tax</span>
+                          <span className="text-emerald-300">Delivery Charges</span>
                           <span className="font-medium text-emerald-100">₹{(selectedOrder.total * 0.05).toFixed(2)}</span>
                         </div>
                         <div className="flex justify-between pt-4 mt-2 border-t border-emerald-700">
