@@ -32,6 +32,3 @@
       ).toISOString().split('T')[0],
       notes: formData.notes
     };
-
-🛒
-
