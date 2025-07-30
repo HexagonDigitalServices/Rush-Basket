@@ -34,7 +34,7 @@
 }
 
 
-// DUMMY DATA FOR {
+// DUMMY DATA FOR PRODUCT  {
   "name": "TerraBella Organic Extra Virgin Olive Oil",
   "description": "Cold‑pressed from olives grown in southern Spain; rich aroma and peppery finish.",
   "category": "Grocery",
