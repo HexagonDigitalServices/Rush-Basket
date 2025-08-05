@@ -1,4 +1,4 @@
-// src/components/dummyDataItem.jsx
+ // src/components/dummyDataItem.jsx
 
 import ApplesImg from '../assets/Dragon Fruit.png';
 import CarrotsImg from '../assets/Passion Fruit.png';

@@ -1,4 +1,4 @@
-import { FiGift, FiHome, FiMail, FiPercent, FiShoppingBag, FiShoppingCart, FiTruck } from "react-icons/fi";
+import { FiGift, FiHome, FiMail, FiPercent, FiShoppingBag, FiShoppingCart, FiTruck , FiPackage} from "react-icons/fi";
 import { bannerStyles } from './dummyStyles'
 
 
@@ -17,4 +17,5 @@ export const navItems = [
     { name: 'Home', path: '/', icon: <FiHome className="text-xl" /> },
     { name: 'Items', path: '/items', icon: <FiShoppingBag className="text-xl" /> },
     { name: 'Contact', path: '/contact', icon: <FiMail className="text-xl" /> },
+     { name: 'My Orders', path: '/myorders', icon: <FiPackage className="text-xl" /> },
 ];
